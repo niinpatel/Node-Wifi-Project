@@ -7,6 +7,10 @@ Displays the ssid of connected network.
 Clone the repo: 
 
     git clone https://github.com/niinpatel/Node-Wifi-Project
+    
+Enter project directory - 
+
+    cd Node-Wifi-Project
 
 Install required packages - 
 
