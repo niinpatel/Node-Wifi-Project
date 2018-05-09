@@ -20,7 +20,7 @@ wifi.getCurrentConnections(function(err, currentConnections) {
         connectionText.textContent = "You're connected to " + currentConnections[0].ssid;
     }
     else {
-        connectionText.textContent = "You're not connected to network";
+        connectionText.textContent = "You're not connected to any network";
     }
 
 });
