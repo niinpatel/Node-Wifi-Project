@@ -16,8 +16,12 @@ wifi.getCurrentConnections(function(err, currentConnections) {
     if (err) {
         console.log(err);
     }
-
-    connectionText.textContent = currentConnections[0].ssid;
+    if(currentConnections[0]){
+        connectionText.textContent = "You're connected to" + currentConnections[0].ssid;
+    }
+    else {
+        connectionText.textContent = "You're not connected to network";
+    }
 
 });
 
