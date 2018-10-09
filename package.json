@@ -8,13 +8,13 @@
     "start": "electron ."
   },
   "author": "Nitin",
-  "repository" :
-  { "type" : "git",
-    "url" : "https://github.com/niinpatel/Node-Wifi-Project"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niinpatel/Node-Wifi-Project"
   },
   "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.11"
   },
   "dependencies": {
     "node-wifi": "^2.0.4"
